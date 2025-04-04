@@ -4,9 +4,10 @@ class quizgame {
         public static void main(String[] args) {
                 @SuppressWarnings("resource")
                 Scanner sc = new Scanner(System.in);
+                //here goes answers to the questions
                 char[] ans = { 'a', 'b', 'c', 'a', 'a' };
                 int score = 0;
-
+                //here add the questions
                 String[] question = {
                                 "1. Which flies a green, white, and orange (in that order) tricolor flag? \n" +
                                                 "a. Ireland\n" + "b. Ivory Coast\n" + "c. Italy",
